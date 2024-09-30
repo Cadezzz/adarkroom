@@ -25,7 +25,7 @@ var Button = {
 
 		el.append($("<div>").addClass('cooldown'));
 
-		// waiting for expiry of residual cooldown detected in state
+		// waiting for expiry of residual coldown detected in state
 		Button.cooldown(el, 'state');
 
 		if(options.cost) {
